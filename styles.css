@@ -1,0 +1,30 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    position: sticky;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+footer {
+
+}
+
+.hero {
+    height: 80vh;
+    background-color: #1F2937;
+}
