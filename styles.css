@@ -6,17 +6,28 @@
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --dark-bg-color: #1F2937;
+    --button-bg: #3882F6;
+    --quote-bg: #E5E7EB;
+    --main-text-color: #F9FAF8;
+    --sec-text-color: #E5E7EB;
+    --dark-text-color: #1F2937;
+}
+
 header {
     display: flex;
+    padding: 0 8rem;
     justify-content: space-between;
     align-items: center;
     height: 3rem;
     position: sticky;
+    background-color: var(--dark-bg-color);
 }
 
 h1 {
     font-size: 3rem;
-    color: #F9FAF8;
+    color: var(--main-text-color);
     font-weight: bolder;
 }
 
@@ -24,7 +35,31 @@ footer {
 
 }
 
+ul {
+display: flex;
+gap: 2rem;
+list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--sec-text-color);
+}
+
+h2 {
+    color: var(--sec-text-color);
+}
+
 .hero {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 8rem;
     height: 80vh;
     background-color: #1F2937;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
 }
