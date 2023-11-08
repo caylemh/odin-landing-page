@@ -29,6 +29,7 @@ h1 {
     font-size: 3rem;
     color: var(--main-text-color);
     font-weight: bolder;
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -46,18 +47,49 @@ a {
     color: var(--sec-text-color);
 }
 
-h2 {
+.header-logo {
     color: var(--sec-text-color);
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: var(--sec-text-color);
+}
+
+button {
+    width:fit-content;
+    padding: .3rem 1.5rem;
+    border-radius: 10px;
+    background-color: var(--button-bg);
+    color: var(--sec-text-color);
+    font-weight: 500;
+    border-style: none;
+    cursor: pointer;
+}
+
+.hero-img {
+    position: relative;
+    top: 10%;
+    width: 700px;
+    transform: scaleX(-1);
 }
 
 .hero {
     display: flex;
+    flex: 0 0 auto;
     gap: 2rem;
     align-items: center;
     padding: 0 8rem;
-    height: 80vh;
+    height: 65vh;
     background-color: #1F2937;
     overflow: hidden;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 350px;
 }
 
 .container {
