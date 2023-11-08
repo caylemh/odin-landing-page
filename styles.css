@@ -82,10 +82,14 @@ section {
     overflow: hidden;
 }
 
-span {
+.logo {
     font-size: 2rem;
     color: var(--button-bg);
     font-family: 'Agbalumo', serif;
+}
+
+.meaning {
+    font-size: smaller;
 }
 
 .header-logo {
