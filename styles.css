@@ -9,6 +9,7 @@
 
 :root {
     --dark-bg-color: #1F2937;
+    --dark-bg-color2: #293546;
     --button-bg: #3882F6;
     --quote-bg: #E5E7EB;
     --main-text-color: #F9FAF8;
@@ -21,9 +22,9 @@ header {
     padding: 0 8rem;
     justify-content: space-between;
     align-items: center;
-    height: 3rem;
-    position: sticky;
-    background-color: var(--dark-bg-color);
+    height: 3.5rem;
+    position:static;
+    background-color: var(--dark-bg-color2);
 }
 
 h1 {
@@ -76,7 +77,7 @@ section {
     gap: 2rem;
     align-items: center;
     padding: 0 8rem;
-    height: 75vh;
+    height: 80vh;
     overflow: hidden;
 }
 
@@ -93,7 +94,6 @@ span {
 
 .hero-img {
     position: relative;
-    top: 20%;
     width: 700px;
     transform: scaleX(-1);
 }
